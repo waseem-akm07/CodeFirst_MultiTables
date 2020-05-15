@@ -1,0 +1,22 @@
+﻿
+
+	         ************** Steps to use Code first approach ***************
+
+			 # - Make a classes for tables as per requirement
+
+			 # - Install EntityFrame Work
+
+			 # - Run these cmds
+
+				* First (for enable migration after completing migration "Migration" folder will be creating in Solution Explorer)
+			      Enable-Migrations 
+
+				* Second (to initailize a migration make table structure)
+				  Add-Migration Initial
+
+				* Third (for update on server ex- sqlserver)
+				  Update-Database -Verbose
+
+			# Now your code first approach is ready....
+
+			  Happy Coding... WA7
